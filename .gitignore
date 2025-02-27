@@ -115,3 +115,27 @@ coverage_reports
 
 # idea
 .idea
+
+# Large data files
+*.hdf5
+*.h5
+*.pkl
+*.model
+*.bin
+*.dat
+*.parquet
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Model files and checkpoints
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.savedmodel
+checkpoints/
+weights/
